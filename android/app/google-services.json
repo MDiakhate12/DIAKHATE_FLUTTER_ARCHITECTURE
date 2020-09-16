@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "576863552883",
+    "firebase_url": "https://discover-10bd5.firebaseio.com",
+    "project_id": "discover-10bd5",
+    "storage_bucket": "discover-10bd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576863552883:android:7a83f491d4cf2306f1b106",
+        "android_client_info": {
+          "package_name": "com.example.discover"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576863552883-v7luqsg13uj4jjikbhp9lamkds86fsk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaQnRJiOm3d1H7Q-UQZkG23c3WFGVMDzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576863552883-v7luqsg13uj4jjikbhp9lamkds86fsk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
