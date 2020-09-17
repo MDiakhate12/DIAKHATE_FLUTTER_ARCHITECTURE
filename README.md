@@ -28,7 +28,7 @@ This project is a starter architecture for flutter using firebase and provider.
     *** 
    ##### views
     Contains actual pages and respective logic.
-    ##### Example of view structure
+   ##### Example of view structure
    ###### home
    ###### home_widgets
           Contains all widgets that are specific to the home page.
