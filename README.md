@@ -1,6 +1,7 @@
 # NEW FLUTTER ARCHITECTURE FOR PRODUCTION
 This project is a starter architecture for flutter using firebase and provider. 
 ### Folder structure
+![Image of Folder Structure](https://github.com/MDiakhate12/DIAKHATE_FLUTTER_ARCHITECTURE/blob/master/tree.jpg)
   #### +---config
   #### +---constants
   #### +---models
