@@ -1,5 +1,5 @@
 import 'package:discover/config/locator.dart';
-import 'package:discover/config/router.dart';
+import 'package:discover/router/router.dart';
 import 'package:discover/constants/routes.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: Routes.signupView,
+      initialRoute: Routes.homeView,
       onGenerateRoute: Router.onGenerateRoute,
     );
   }

@@ -7,12 +7,13 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider<HomeState>(
-      create: (context) => HomeState(),
-      child: Scaffold(
-        appBar: buildAppBar(context),
-        body: buildBody(context),
-        floatingActionButton: buildFloatingActionButton(context),
-      ),
-    );
+        create: (context) => HomeState(),
+        builder: (context, child) {
+          return Scaffold(
+            appBar: buildAppBar(context),
+            body: buildBody(context),
+            floatingActionButton: buildFloatingActionButton(context),
+          );
+        });
   }
 }

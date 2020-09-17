@@ -1,36 +1,30 @@
 import 'package:discover/ui/views/home/home_state.dart';
-import 'package:discover/ui/views/home/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 // import 'package:discover/config/locator.dart';
 
 Widget buildBody(BuildContext context) {
-  print("FROM BODY : $context");
+  HomeState homeState = Provider.of<HomeState>(context);
 
-  return Consumer<HomeState>(
-    builder: (context, homeState, child) {
-      return Center(
-        child: Text(homeState.text),
-      );
-    },
+  return Center(
+    child: Text(homeState.text),
   );
 }
 
 Widget buildAppBar(BuildContext context) {
-  var homeState = Provider.of(context)<HomeState>();
-  return Text(homeState.title);
+  HomeState homeState = Provider.of<HomeState>(context);
+
+  return AppBar(
+    title: Text(homeState.title),
+  );
 }
 
 Widget buildFloatingActionButton(BuildContext context) {
-  return Consumer<HomeState>(
-    builder: (context, homeState, child) {
-      return FloatingActionButton(
-        onPressed: () => homeState.updateText("DIAAAAAF !!!"),
-        child: Icon(
-          Icons.update,
-        ),
-      );
-    },
+  HomeState homeState = Provider.of<HomeState>(context);
+
+  return FloatingActionButton(
+    onPressed: () => homeState.updateText(),
+    child: Icon(homeState.text == "Welcome" ? Icons.add : Icons.update),
   );
 }
