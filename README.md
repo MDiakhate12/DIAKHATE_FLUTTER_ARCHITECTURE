@@ -2,22 +2,6 @@
 This project is a starter architecture for flutter using firebase and provider. 
 ### Folder structure
 ![Image of Folder Structure](https://github.com/MDiakhate12/DIAKHATE_FLUTTER_ARCHITECTURE/blob/master/tree.jpg)
-  #### +---config
-  #### +---constants
-  #### +---models
-  #### +---router
-  #### +---services
-  #### \---ui
-  #####    +---common_widgets
-  #####    \---views
-  #####        +---home
-  #####        |   \---home_widgets
-  #####        +---login
-  #####        |   \---login_widgets
-  #####        +---not_found
-  #####        +---signup
-  #####        |   \---signup_widgets
-  #####        \---startup
 ***
 ### Folder explanation
 
