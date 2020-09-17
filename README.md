@@ -24,7 +24,7 @@ This project is a starter architecture for flutter using firebase and provider.
     Contains all ui code. 
    ##### common_widgets/
     Contains widgets that are common to all pages.
-  *** 
+    
    ##### views/
     Contains actual pages and respective logic.
   ***
