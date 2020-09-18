@@ -25,10 +25,10 @@ dependencies:
   cupertino_icons: ^0.1.2
 
   provider:
-  get_it: ^4.0.2
-  intl_phone_number_input: ^0.4.0+2
-  cloud_firestore: ^0.14.0+2
-  firebase_auth: ^0.18.0+1
+  get_it: 
+  intl_phone_number_input: 
+  cloud_firestore: 
+  firebase_auth: 
 
 
 dev_dependencies:
