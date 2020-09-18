@@ -1,5 +1,8 @@
 # NEW FLUTTER ARCHITECTURE FOR PRODUCTION
 This project is a starter architecture for flutter using firebase and provider. 
+## Getting started 
+1. git clone https://github.com/MDiakhate12/DIAKHATE_FLUTTER_ARCHITECTURE.git
+2. flutter pub get 
 ## Folder structure
 ![Image of Folder Structure](https://github.com/MDiakhate12/DIAKHATE_FLUTTER_ARCHITECTURE/blob/master/tree.jpg)
 ***
